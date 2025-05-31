@@ -147,7 +147,10 @@
         {
             "name": "Elbląg",
             "type": "mobility-database",
-            "mdb-id": "mdb-2597"
+            "mdb-id": "mdb-2597",
+            "license": {
+                "spdx-identifier": "CC0-1.0"
+            }
         },
         {
             "name": "Poznań",
