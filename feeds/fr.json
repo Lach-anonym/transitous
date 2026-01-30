@@ -75,15 +75,6 @@
             "spec": "gtfs-rt"
         },
         {
-            "name": "caen-la-mer-reseau-twisto-gtfs-siri",
-            "type": "http",
-            "url": "https://data.twisto.fr/api/explore/v2.1/catalog/datasets/fichier-gtfs-du-reseau-twisto/alternative_exports/gtfs_twisto_zip/",
-            "license": {
-                "url": "https://data.twisto.fr/explore/dataset/fichier-gtfs-du-reseau-twisto/information/",
-                "spdx-identifier": "ODbL-1.0"
-            }
-        },
-        {
             "name": "fichiers-gtfs-eurometropole-de-metz",
             "type": "http",
             "url": "https://www.data.gouv.fr/api/1/datasets/r/92af6161-1b1a-4e0b-8f60-d97f213d993a",
@@ -487,6 +478,16 @@
             "skip": false,
             "x-data-gov-fr-res-title": "Données théoriques (GTFS)",
             "x-data-gov-fr-dataset-id": "5ae1715488ee384c8ba0342b"
+        },
+        {
+            "name": "donnees-theoriques-gtfs-et-temps-reel-siri-lite-du-reseau-cts",
+            "type": "url",
+            "url": "https://gtfs.bus-tracker.fr/gtfs-rt/cts/trip-updates",
+            "license": {
+                "spdx-identifier": "ODbL-1.0"
+            },
+            "spec": "gtfs-rt",
+            "managed-by-script": false
         },
         {
             "name": "reseau-orizo-grand-avignon",
@@ -12686,7 +12687,7 @@
             "fix": true,
             "license": {
                 "url": "https://transport.data.gouv.fr/datasets/caen-la-mer-reseau-twisto-gtfs-siri-2",
-                "spdx-identifier": null
+                "spdx-identifier": "ODbL-1.0"
             },
             "x-data-gov-fr-res-id": 83513,
             "managed-by-script": true,
