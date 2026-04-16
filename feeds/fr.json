@@ -12889,7 +12889,6 @@
             "skip": false,
             "x-data-gov-fr-res-title": "Horaires théoriques des réseaux urbains et interurbains en Région Grand Est",
             "x-data-gov-fr-dataset-id": "691758cb5dede017e972500f",
-            # not dropped agencies: Grand Reims Mobilités Covoit, Fluo Lorraine Aéroport (unused), Colibri, Navettes de Noël (unused), Fluo Grand Est 57
             "drop-agency-names": [
                 "Fluo Grand Est 08",
                 "Fluo Grand Est 10",
